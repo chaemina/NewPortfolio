@@ -4,6 +4,7 @@ import Image from "next/image";
 import ProfileImage from "../../../assets/Images/Profile.jpg";
 import Title from "../atom/Title";
 import Text from "../atom/Text";
+import Link from "next/link";
 
 export default function IntroFirstCol() {
   return (
@@ -16,6 +17,13 @@ export default function IntroFirstCol() {
         <Text>Tel. 010-2103-6106</Text>
         <Text>E. chaemina82@naver.com</Text>
         <Text>Date of birth. 2002/06/07</Text>
+        <Link href={"https://github.com/chaemina"} className="font-bold text-orange underline">
+          <Text>github link here</Text>
+        </Link>
+        <Link href={"https://medium.com/@chaemina8282"} className="font-bold text-orange underline">
+          <Text>medium link here</Text>
+        </Link>
+       
       </div>
       <div className="flex flex-col gap-2">
         <Title>모두를 연결하는</Title>

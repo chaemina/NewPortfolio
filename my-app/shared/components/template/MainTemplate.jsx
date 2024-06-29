@@ -1,6 +1,7 @@
 import Title from "../atom/Title";
 import Intro from "../organism/Intro";
 import Experience from "../organism/Experience";
+import Project from "../organism/Project"
 
 
 export default function MainTemplate() {
@@ -10,6 +11,8 @@ export default function MainTemplate() {
       <hr className="border-2 border-whiteorange" />
       <Intro />
       <Experience/>
+      <hr className="border-2 border-mint" />
+      <Project/>
     </div>
   );
 }
