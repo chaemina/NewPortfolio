@@ -7,7 +7,7 @@ import Toggle from "./Toggle";
 
 export default function Card({ title, description, bgColor, link, link2, linkText2, linkText, image, tags = [], roleDescription,icon }) {
   return (
-    <div className={`w-full flex flex-col gap-5 p-2 ${bgColor ? `bg-${bgColor}` : ''} ${bgColor ? `border border-${bgColor}` : 'border'}`}>
+    <div className={`w-full flex flex-col gap-5 p-2 ${bgColor ? `bg-mint` : ''} ${bgColor ? `border border-mint` : 'border'}`}>
       <div className="flex">
       {icon && (
           <Image src={icon} alt="icon" width={24} height={24} className="mr-2" />
@@ -42,7 +42,6 @@ export default function Card({ title, description, bgColor, link, link2, linkTex
           <MidTitle>{linkText2}</MidTitle>
         </Link>
       )}
-     
     </div>
   );
 }
