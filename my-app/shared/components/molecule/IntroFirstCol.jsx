@@ -27,8 +27,8 @@ export default function IntroFirstCol() {
       </div>
       <div className="flex flex-col gap-2">
         <Title>모두를 연결하는</Title>
-        <Text>사용자의 접근성을 최대로 고민해요</Text>
-        {/* 추가 */}
+        <Text>접근성 개선에 관심 있어요!</Text>
+        <Text>성공이 아닌 경험으로 성장해요!</Text>
       </div>
     </div>
   );

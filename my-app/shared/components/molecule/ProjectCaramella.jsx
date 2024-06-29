@@ -20,9 +20,19 @@ export default function ProjectCaramella() {
         image={ProjectImage}
         tags={tags}
         link="https://github.com/chaemina/caramella_toyproject"
-        linkText="Caramella Intranet github 바로가기"
-        roleDescription={`여기에는 사용자의 역할에 대한 자세한 설명이 들어갑니다. 
-이 부분은 사용자가 토글 버튼을 눌렀을 때만 표시됩니다.`}
+        linkText="📌 Caramella Intranet github"
+        link2="https://www.figma.com/design/ZjA3X89i5nWszAUfxGnmbr/caramella?node-id=0-1&t=3POERBYS9mGuBQ06-1"
+        linkText2="📌 Caramella Intranet Figma"
+        roleDescription={` 1) UI/UX 설계 
+· Figma에서 UI/UX 설계
+
+2) API 문서 작성 
+
+3) 프론트앤드 페이지 전체 개발 
+· Next.js에서 앱 라우터로 개발 
+· 서버 배포 전, api 연결 테스트를 위해 msw를 사용
+
+`}
         icon={icon}
       />
     </div>
