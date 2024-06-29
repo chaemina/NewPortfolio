@@ -4,7 +4,7 @@ import IntroSecondCol from "../molecule/IntroSecondCol";
 
 export default function Intro() {
   return (
-    <div className="">
+    <div>
       <Column col1={<IntroFirstCol />} col2={<IntroSecondCol />} />
     </div>
   );

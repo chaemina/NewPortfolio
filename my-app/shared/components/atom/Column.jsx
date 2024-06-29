@@ -1,6 +1,6 @@
 export default function Column({ col1, col2 }) {
   return (
-    <div className="flex flex-col md:flex-row">
+    <div className="flex flex-col gap-10 md:flex-row">
       <div className="md:w-1/2">{col1}</div>
       <div className="md:w-1/2">{col2}</div>
     </div>
