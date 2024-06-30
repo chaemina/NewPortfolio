@@ -11,7 +11,7 @@ export default function ProjectMaeum() {
     },
     { label: "JavaScript", bgColor: "bg-yellow-200", textColor: "text-black" },
     { label: "React Query", bgColor: "bg-pink-500", textColor: "text-white" },
-    { label: "Redux", bgColor: "bg-purple-200", textColor: "text-black" },
+    { label: "Redux-toolkit", bgColor: "bg-purple-200", textColor: "text-black" },
     { label: "Lottie", bgColor: "bg-teal-200", textColor: "text-teal-700" },
     { label: "nativewind", bgColor: "bg-sky-500", textColor: "text-white" },
     {

@@ -2,6 +2,7 @@ import Title from "../atom/Title";
 import Intro from "../organism/Intro";
 import Experience from "../organism/Experience";
 import Project from "../organism/Project";
+import Skills from "../organism/Skills"
 
 export default function MainTemplate() {
   return (
@@ -12,6 +13,7 @@ export default function MainTemplate() {
       <Experience />
       <hr className="border-2 border-mint" />
       <Project />
+      <Skills/>
     </div>
   );
 }
