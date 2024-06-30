@@ -4,25 +4,39 @@ import icon from "../../../assets/Images/maeumicon.png";
 
 export default function ProjectMaeum() {
   const tags = [
-    { label: 'React Native', bgColor: 'bg-blue-200', textColor: 'text-blue-700' },
-    { label: 'JavaScript', bgColor: 'bg-yellow-200', textColor: 'text-black' },
-    { label: 'React Query', bgColor: 'bg-pink-500', textColor: 'text-white' },
-    { label: 'Redux', bgColor: 'bg-purple-200', textColor: 'text-black' },
-    { label: 'Lottie', bgColor: 'bg-teal-200', textColor: 'text-teal-700' },
-    { label: 'nativewind', bgColor: 'bg-sky-500', textColor: 'text-white' },
+    {
+      label: "React Native",
+      bgColor: "bg-blue-200",
+      textColor: "text-blue-700",
+    },
+    { label: "JavaScript", bgColor: "bg-yellow-200", textColor: "text-black" },
+    { label: "React Query", bgColor: "bg-pink-500", textColor: "text-white" },
+    { label: "Redux", bgColor: "bg-purple-200", textColor: "text-black" },
+    { label: "Lottie", bgColor: "bg-teal-200", textColor: "text-teal-700" },
+    { label: "nativewind", bgColor: "bg-sky-500", textColor: "text-white" },
+    {
+      label: "디지털 경진대회(SW) 금상 수상작",
+      bgColor: "bg-purple-600",
+      textColor: "text-white",
+    },
+    {
+      label: "ASK 2024 논문 게재",
+      bgColor: "bg-purple-600",
+      textColor: "text-white",
+    },
   ];
 
   return (
     <div>
-      <Card 
+      <Card
         title="스무고개의 여행 마음의 창"
         description={`대화형 AI를 활용하여 스무고개 게임을 통해 ASD(자폐 스펙트럼 장애) 아동이 질문하고 대답하는 기술을 익히도록 돕는 플랫폼입니다.`}
         image={ProjectImage}
         tags={tags}
         link="https://github.com/ddookddook/maeum2_FE/tree/feat_mina"
         linkText="📌 마음의 창 github"
-        link2="https://www.figma.com/design/ysSlC2ANiostfUEVk2ZH3K/%EC%99%80%EC%9D%B4%EC%96%B4%ED%94%84%EB%A0%88%EC%9E%84?node-id=0-1&t=zgO8hZTDZZELVMst-1"
-        linkText2="📌 마음의 창 Figma"
+        link2="https://drive.google.com/drive/folders/1WgXxCEDL_ma_foK7OkPqZWFF_JxLqPf5?usp=drive_link"
+        linkText2="📌 마음의 창 Android Download"
         roleDescription={`1) UI/UX 설계
 (1) WCAG 접근성 지침을 고려한 디자인 설계
 · 버튼이 연속하여 나오는 경우 색상의 순서를 Yellow -> Pink 로 통일하는 등의 규칙으로 일관된 스타일을 유지
