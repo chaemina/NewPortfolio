@@ -9,14 +9,14 @@ import Link from "next/link";
 export default function IntroFirstCol() {
   return (
     <div className="flex flex-col gap-10 items-center md:items-start">
-      <div className="relative w-[200px] sm:w-[200px] md:w-[250px] lg:w-[250px] xl:w-[300px]">
+      {/* <div className="relative w-[200px] sm:w-[200px] md:w-[250px] lg:w-[250px] xl:w-[300px]">
         <Image src={ProfileImage} alt="ProfileImage" />
-      </div>
+      </div> */}
       <div>
-        <Title>Chae MinA</Title>
+        {/* <Title>Chae MinA</Title>
         <Text>Tel. 010-2103-6106</Text>
         <Text>E. codebychaemina@gmail.com</Text>
-        <Text>Date of birth. 2002/06/07</Text>
+        <Text>Date of birth. 2002/06/07</Text> */}
         <Link href={"https://github.com/chaemina"} className="font-bold text-myblue underline">
           <Text>github link here</Text>
         </Link>

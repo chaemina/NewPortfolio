@@ -29,11 +29,11 @@ export default function IntroSecondCol() {
        <Text> · 소프트웨어중심대학 사업단장상 금상, SW동아리 발굴 및 지원 프로그램 최종결과발표회 | 2023.12.08</Text>
        <Text> · 소프트웨어중심대학 사업단장상 금상, 2024 교내 디지털경진대회(SW부문) | 2024.06.07</Text>
       </div>
-      <div className="flex flex-col gap-7">
+      {/* <div className="flex flex-col gap-7">
         <Title>Education</Title>
         <Text> · 전남대학교 소프트웨어공학과 재학</Text>
         <Text> · 수완고등학교 2018 - 2020</Text>
-      </div>
+      </div> */}
     </div>
   );
 }

@@ -7,7 +7,7 @@ import Skills from "../organism/Skills"
 export default function MainTemplate() {
   return (
     <div className="w-full flex flex-col gap-5 sm:w-[600px] md:w-[728px] lg:w-[1000px] xl:w-[1100px] 2xl:w-[1300px] ">
-      <Title>채민아 FrontEnd Developer</Title>
+      <Title>FrontEnd Developer</Title>
       <hr className="border-2 border-myblue" />
       <Intro />
       <Skills/>
