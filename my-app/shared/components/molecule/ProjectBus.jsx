@@ -14,9 +14,9 @@ export default function ProjectBus() {
         title="🚌 광주버스 - AI광주버스"
         description={`광주광역시의 실시간 버스 위치와 도착 정보를 AI 기술로 정확하게 제공합니다.`}
         image={ProjectImage}
-        tags={tags}
+        // tags={tags}
         link="https://apps.apple.com/kr/app/%EA%B4%91%EC%A3%BC%EB%B2%84%EC%8A%A4-ai%EA%B4%91%EC%A3%BC%EB%B2%84%EC%8A%A4/id6475945653"
-        linkText="📌 광주 버스 APP Store 바로가기"
+        linkText="광주 버스 APP Store 바로가기"
         roleDescription={`1) 자주 묻는 질문 페이지
 · onTapGesture와 withAnimation 속성을 사용해 직선 이동과 동시에 내용이 변화하는 Tab View 구현
 

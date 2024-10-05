@@ -17,11 +17,11 @@ export default function ProjectGarden() {
         title="🌱 함께 피워내는 한국어 교육 플랫폼 Garden"
         description={`한류 문화를 기반으로 한국어 학습의 장벽을 극복하고, 외국인들에게 다양한 방식의 학습 환경을 제공합니다.`}
         image={ProjectImage}
-        tags={tags}
+        // tags={tags}
         link="https://github.com/Step3-kakao-tech-campus/Team18_FE/tree/Evaluation"
-        linkText="📌 Garden github"
+        linkText="Garden github 바로가기"
         link2="https://www.figma.com/design/DG91eB8oq3T7VnFJ6u8Nww/Watching?node-id=0-1&t=BEzFFQ8KCaQ3cm4W-1"
-        linkText2="📌 Garden Figma"
+        linkText2="Garden Figma 바로가기"
         roleDescription={`1) UI/UX 디자인 
 · Figma에서 UI/UX 설계 
 

@@ -32,11 +32,11 @@ export default function ProjectMaeum() {
         title="스무고개의 여행 마음의 창"
         description={`대화형 AI를 활용하여 스무고개 게임을 통해 ASD(자폐 스펙트럼 장애) 아동이 질문하고 대답하는 기술을 익히도록 돕는 플랫폼입니다.`}
         image={ProjectImage}
-        tags={tags}
+        // tags={tags}
         link="https://github.com/ddookddook/maeum2_FE/tree/feat_mina"
-        linkText="📌 마음의 창 github"
-        link2="https://drive.google.com/drive/folders/1WgXxCEDL_ma_foK7OkPqZWFF_JxLqPf5?usp=drive_link"
-        linkText2="📌 마음의 창 Android Download"
+        linkText="마음의 창 github 바로가기"
+        link2="https://www.youtube.com/watch?v=Xs86UbhY9k8"
+        linkText2="마음의 창 시연 영상 바로가기"
         roleDescription={`1) UI/UX 설계
 (1) WCAG 접근성 지침을 고려한 디자인 설계
 · 버튼이 연속하여 나오는 경우 색상의 순서를 Yellow -> Pink 로 통일하는 등의 규칙으로 일관된 스타일을 유지

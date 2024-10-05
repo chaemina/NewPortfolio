@@ -18,9 +18,9 @@ export default function IntroSecondCol() {
        <Text> · Py-ting 팀장,  2023 KIV 월드프렌즈코리아 IT봉사단 | 2023.07 ~ 2023.08</Text>
        <Text> · Web FrontEnd, 카카오테크 캠퍼스 | 2023.04 ~ 2023.10</Text>
        <Text> · 한국정보처리학회 ASK 2024 논문 게재 | 2024.05.28 </Text>
+       <Text> · 소봉이들 팀장, 코드클럽 한국위원회 대학생 봉사단 | 2024.05 ~ 2024.08 </Text>
+       <Text> · 홀씨 팀장, 2024 KIV 월드프렌즈코리아 IT봉사단 | 2024.06 ~ 2024.08 </Text>
        <Text> · 소봉이들 회장, 소프트웨어 중심대학 사업단 동아리 | 2023.03 ~ </Text>
-       <Text> · 소봉이들 팀장, 코드클럽 한국위원회 대학생 봉사단 | 2024.05 ~ </Text>
-       <Text> · 홀씨 팀장, 2024 KIV 월드프렌즈코리아 IT봉사단 | 2024.06 ~ </Text>
       </div>
       <div className="flex flex-col gap-7">
        <Title>Awards</Title>

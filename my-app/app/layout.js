@@ -1,7 +1,7 @@
 import "./globals.css";
 
 export const metadata = {
-  title: "당근 근처의 당근",
+  title: "신한의 新韓",
 };
 
 export default function RootLayout({ children }) {

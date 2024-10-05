@@ -11,7 +11,7 @@ export default function Experience() {
       <Grid
         item1={
           <Card
-            bgColor="mint"
+            bgColor="sky"
             title="2022 KIV 월드프렌즈코리아 IT봉사단"
             description={`· 파견 국가 : 가나\n· 수혜 대상 : 가나대학교(University of Ghana)학생\n· 활동 내용\n1) 한국어, 영어 교안 제작\n2) Python 교육`}
           />
@@ -24,8 +24,8 @@ export default function Experience() {
         }
         item3={
           <Card
-            bgColor="mint"
-            title="학생회 홍보부 부장"
+            bgColor="sky"
+            title="학과 학생회 홍보부 부장"
             description={`활동 내용\n1) 카드 뉴스 제작\n2) 인스타 및 SNS 홍보 활동\n3) 학과 행사 기획 및 운영 참여`}
           />
         }
@@ -45,7 +45,7 @@ export default function Experience() {
         }
         item2={
           <Card
-            bgColor="mint"
+            bgColor="sky"
             title="카카오테크 캠퍼스 Web FrontEnd 수료"
             description={`· 학습 내용 : \n1)HTML,CSS,JavaScript \n2)React \n· 프로젝트 : \n1)카카오 쇼핑하기 클론코딩 \n2)한국어 교육 플랫폼 Garden`}
             link={
@@ -56,7 +56,7 @@ export default function Experience() {
         }
         item3={
           <Card
-            title="동아리 소봉이들 회장"
+            title="SW 봉사 동아리 소봉이들 회장"
             description={`활동 내용\n1) 자체 제작 컨텐츠 유튜브 운영 \n2) 인스타 및 SNS 홍보 활동\n3) 소프트웨어 중심대학 주최 봉사활동 참여 \n4) 대외 봉사활동 참여`}
             link={
               "https://hickory-guarantee-59a.notion.site/SoBongE-45c5de0046f64ceb97ecd3a967df6517"
@@ -70,8 +70,8 @@ export default function Experience() {
       <Grid
         item1={
           <Card
-            bgColor="mint"
-            title="2024 코드클럽 봉사단 소봉이들 팀장 (활동중)"
+            bgColor="sky"
+            title="2024 코드클럽 봉사단 소봉이들 팀장"
             description={`· 교육 대상 : 마지초등학교 6-4, 6-5 \n· 교육 주제 : 엔트리로 조이스틱 모듈을 통해 공튀기기 게임 만들기  \n· 활동 내용 : \n 1) 마지초등학교 담당선생님 컨택 \n2) 교구 및 설문지 등 사전 준비 \n3) 사전 답사 \n4) Zep으로 교실 메타버스 구현`}
             link={
               "https://hickory-guarantee-59a.notion.site/2024-9a43838dad85483d94adeafb9d4ea649"
@@ -93,8 +93,8 @@ export default function Experience() {
         }
         item3={
           <Card
-            bgColor="mint"
-            title="2024 KIV 월드프렌즈코리아 IT봉사단 (활동중)"
+            bgColor="sky"
+            title="2024 KIV 월드프렌즈코리아 IT봉사단"
             description={`· 파견 국가 : 인도네시아 \n· 수혜 대상 : 다르마자야 정보 및 비즈니스 대학 (Institute Informatics and Business Darmajaya(IIB))\n· 프로젝트 주제 : 인도네시아 협동 조합 Waste Bank 활용 안드로이드 어플리케이션 개발`}
             link={
               "https://unmarred-nerine-019.notion.site/2024-ICT-Holssi-9ef0f43566ea4c688182a0fc5580e30a"

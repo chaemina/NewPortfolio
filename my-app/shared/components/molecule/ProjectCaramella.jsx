@@ -18,11 +18,11 @@ export default function ProjectCaramella() {
         title="(주) 카라멜라 사내 인트라넷"
         description={`사내 인트라넷 사이트로 기존에 사용하던 Jira Service Desk의 역할을 대체합니다.`}
         image={ProjectImage}
-        tags={tags}
+        // tags={tags}
         link="https://github.com/chaemina/caramella_toyproject"
-        linkText="📌 Caramella Intranet github"
+        linkText="Intranet github 바로가기 "
         link2="https://www.figma.com/design/ZjA3X89i5nWszAUfxGnmbr/caramella?node-id=0-1&t=3POERBYS9mGuBQ06-1"
-        linkText2="📌 Caramella Intranet Figma"
+        linkText2="Intranet Figma 바로가기"
         roleDescription={` 1) UI/UX 설계 
 · Figma에서 UI/UX 설계
 

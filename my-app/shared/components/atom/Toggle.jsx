@@ -12,7 +12,7 @@ export default function Toggle({ children, label }) {
 
   return (
     <div className="w-full">
-      <button onClick={toggleOpen} className="flex items-center gap-2 font-bold text-green-900">
+      <button onClick={toggleOpen} className="flex items-center gap-2 font-bold text-sky">
         <Text>{label}</Text>
         <Text>{isOpen ? '▲' : '▼'}</Text>
       </button>
